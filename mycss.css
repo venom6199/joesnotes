@@ -1,0 +1,24 @@
+
+.jumbotron {
+color:#006c87;
+padding:49px;
+
+}
+
+h3{
+	font-family:"Georgia ";
+    font-weight: bold;
+}
+h1{
+	font-size:95px;
+	font-family: Impact;
+	color:#006c87;
+}
+
+
+.img-responsive{
+position: absolute;
+top: 6%;
+left: -2%;
+padding: 13px;
+}

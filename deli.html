@@ -1,19 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Deli</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="gallery-clean.css">
+
+
+
+</head>
 <body>
-<nav class = "navbar navbar-default">
+    <!-- This is the nav bar it makes it black -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
 <div class = "container-fluid">
 <div class = "navbar-header">
 <button type = "button" class = "navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+<!--  The folowing span makes the toggle menu lines  resize the browser to see-->
 <span class = "icon-bar"></span>
 <span class = "icon-bar"></span>
 <span class = "icon-bar"></span>
@@ -26,61 +35,125 @@
  <ul class="nav navbar-nav">
       <li><a href="index.html">Home</a></li>
       <li><a href="car_wash.html">Car Wash</a></li>
-      <li class = "active"> <a href="deli.html">Deli</a></li>
+      <li class = "active"><a href="deli.html">Deli</a></li>
       <li><a href="propane.html">Propane</a></li>
-	  
+    
     </ul>
-	<ul class="nav navbar-nav navbar-right">
+  <ul class="nav navbar-nav navbar-right">
 </ul>
-	  <button class = "btn btn-danger navbar-btn"> Deals</button> <!-- Creates a button -->
+    <button class = "btn btn-danger navbar-btn"> Deals</button> <!-- Creates a button -->
 
   </div>
  </div>
 </nav>
 
-
-
-
-<div class ="jumbotron">
-<h1 class ="text-center"> Palomar Valero </h1>
-<p> some text </p>
-</div>
-
+<div class = "jumbotron">
+    <img class="img-responsive" src="VALERO_logo.png" alt="Chania" width ="300" height ="300">
 <div class = "container">
-<div class ="row">
-<div class ="col-sm-4">
-Coffee?
+
 </div>
-<div class ="col-sm-4">
-Coffee?
-</div><div class ="col-sm-4">
-Coffee?
+<h1 class ="text-center"> Palomar Valero </h1>
+<p class = "text-center"> (619) 423-3471 </p>
+
+
 </div>
-<p> This text is outside the jumbotron </p>
 
+<div class="container gallery-container">
 
-</div> <!-- This ends the container div -->
+    <h1>Palomar Valero Deli</h1>
 
+    <h2 class="page-description text-center">Where Manuiqs come</h2>
+    
+    <div class="tz-gallery">
 
+        <div class="row">
 
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a class="lightbox" href="../images/burito.jpg">
+                        <img src="../images/burito.jpg" alt="burito">
+                    </a>
+                    <div class="caption">
+                        <h3>Thumbnail label</h3>
+                        <p>Lorem ipsum dolor sit amet, .</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a class="lightbox" href="../images/breakfastbagel.jpg">
+                        <img src="../images/breakfastbagel.jpg" alt="breakfastbagel">
+                    </a>
+                    <div class="caption">
+                        <h3>Thumbnail label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a class="lightbox" href="../images/bagel.jpg">
+                        <img src="../images/bagel.jpg" alt="bagel">
+                    </a>
+                    <div class="caption">
+                        <h3>Thumbnail label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a class="lightbox" href="../images/egg.jpg">
+                        <img src="../images/egg.jpg" alt="egg">
+                    </a>
+                    <div class="caption">
+                        <h3>Thumbnail label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a class="lightbox" href="../images/blt.jpg">
+                        <img src="../images/blt.jpg" alt="blt">
+                    </a>
+                    <div class="caption">
+                        <h3>Thumbnail label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+             <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a class="lightbox" href="../images/ruben.jpg">
+                        <img src="../images/ruben.jpg" alt="Rails">
+                    </a>
+                    <div class="caption">
+                        <h3>Thumbnail label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a class="lightbox" href="../images/phily.jpg">
+                        <img src="../images/phily.jpg" alt="Traffic">
+                    </a>
+                    <div class="caption">
+                        <h3>Thumbnail label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+    </div>
 
+</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
+</body>
 </html>
